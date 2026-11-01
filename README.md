@@ -27,6 +27,8 @@ The PCB is 32x52mm with rounded corners so it's comfortable to hold. It's design
 # Firmware
 The firmware is written in Arduino and uses Adafruit’s PixelDust library for the sand physics. About 45 times a second, it reads the tilt from the accelerometer, moves every grain of sand in that direction, and draws each grain as one pixel on the screen. PixelDust also makes sure grains can’t overlap, so they pile up like real sand instead of passing through each other.
 
+In the firmware folder, you'll also find the code I used to test. This code uses an ESP32 DevKit V1 and an MPU9250.
+
 # Bill of Materials
 | Part | Quantity | Unit Price | Total | Vendor |
 |---|---|---|---|---|
