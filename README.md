@@ -1,7 +1,9 @@
 # Virtual SandBox - A Brief Overview
 For Half-Life Week 4, I designed Virtual Sandbox, a pocket-sized desk toy where every pixel on a 0.96" OLED displays acts as a grain of sand. When you tilt or move the device, the sand pours towards whichever side is the lowest, just as real sand would. I wanted to make something simple and satisfying to mess around with, and this was a great way to learn about accelerometers and batteries for the first time. A button on the device allows you change the amount of sand that is displayed, and a toggle switch allows you to turn the device on and off.
+
 <img width="520" height="741" alt="Screenshot 2026-11-01 at 1 55 04 PM" src="https://github.com/user-attachments/assets/a72e536a-3458-4571-8291-221f445267a5" />
 <img width="590" height="739" alt="Screenshot 2026-11-01 at 1 55 24 PM" src="https://github.com/user-attachments/assets/46ef4bea-5a0b-4dbe-a82a-8f841d6fadf8" />
+
 # How it Works
 Virtual SandBox uses a XIAO ESP32-S3 microcontroller, a 0.96" 128*64 OLED display to display the sand, a LIS3DH accelerometer to track tilt and motion, a push button to change amount of sand, a sliding toggle switch to turn the device on/off, and a 3.7V LiPo battery to power the device.
 
