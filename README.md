@@ -31,4 +31,4 @@ The firmware is written in Arduino and uses Adafruit’s PixelDust library for t
 | Button Set | 1 | 1.09 | 1.09 | AliExpress |
 | PCB | 5 | 0.12 | 0.60 | JLCPCB |
 
-**TOTAL PRICE (INCLUDING $11.46 SHIPPING/TAX): $30.51
+**TOTAL PRICE (INCLUDING $11.46 SHIPPING/TAX): $30.51**
